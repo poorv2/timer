@@ -1,0 +1,293 @@
+<html>
+<head>
+<meta name="og:site_name" content="PRO.Polysec.finance">
+<meta name="og:title" content="PolysecPRO - STAKE MATIC and Earn Daily 4.5%-7.5% ROI">
+<meta name="og:description" content="Pro.polysec.finance - STAKE MATIC and Earn Daily 4.5-7.5% ROI">
+<meta name="og:url" content="index.html">
+<meta name="og:image" content="img/social.png">
+<title>PolysecPRO - Stake MATIC and Earn Daily 4.5-7.5% ROI</title>
+</head>
+<main class="main-content">
+	<h1 class="main-title">PolysecPRO will be launched in</h1>
+	<div class="container-countdown">
+		<section class="countdown-block">
+			<span id="days" class="time-element">
+				<span class="top">00</span>
+				<span class="top-back">
+					<span>00</span>
+				</span>
+				<span class="bottom">00</span>
+				<span class="bottom-back">
+					<span>00</span>
+				</span>
+			</span>
+			<h2 class="subtitle">Days</h2>
+		</section>
+		<section class="countdown-block">
+			<span id="hours" class="time-element">
+				<span class="top">00</span>
+				<span class="top-back">
+					<span>00</span>
+				</span>
+				<span class="bottom">00</span>
+				<span class="bottom-back">
+					<span>00</span>
+				</span>
+			</span>
+			<h2 class="subtitle">Hours</h2>
+		</section>
+		<section class="countdown-block">
+			<span id="minutes" class="time-element">
+				<span class="top">00</span>
+				<span class="top-back">
+					<span>00</span>
+				</span>
+				<span class="bottom">00</span>
+				<span class="bottom-back">
+					<span>00</span>
+				</span>
+			</span>
+			<h2 class="subtitle">Minutes</h2>
+		</section>
+		<section class="countdown-block">
+			<span id="seconds"class="time-element">
+				<span class="top">00</span>
+				<span class="top-back">
+					<span>00</span>
+				</span>
+				<span class="bottom">00</span>
+				<span class="bottom-back">
+					<span>00</span>
+				</span>
+			</span>
+			<h2 class="subtitle">Seconds</h2>
+		</section>
+	</div>
+	<footer class="attribution">
+		
+		<nav>
+
+		</nav>
+	</footer>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-content {
+  align-items: center;
+  background: url("https://raw.githubusercontent.com/ThesllaDev/Launch-Countdown-Timer/1226d4c5d0ff2d60330da17c87bbf6cf426b3b9c/assets/img/bg-stars.svg"), url("https://raw.githubusercontent.com/ThesllaDev/Launch-Countdown-Timer/1226d4c5d0ff2d60330da17c87bbf6cf426b3b9c/assets/img/pattern-hills.svg") no-repeat;
+  background-color: #7d88f5;
+  background-position: bottom;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: "Red Hat Text", sans-serif;
+  min-height: 100vh;
+  justify-content: flex-start;
+  line-height: 1.5;
+  max-width: 1440px;
+  padding-top: 15vh;
+  position: relative;
+}
+.main-content .main-title {
+  color: #fff;
+  font-size: 1.5em;
+  letter-spacing: 8px;
+  margin: 20px 20px 109px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-content .container-countdown {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.main-content .countdown-block {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-right: 30px;
+}
+.main-content .countdown-block:last-child {
+  margin-right: 0;
+}
+.main-content .countdown-block .subtitle {
+  color: 2d0808;
+}
+.main-content .time-element {
+  background-color: #33354d;
+  border-radius: 8px;
+  box-shadow: 0px 8px 0px 0px #16151d;
+  color: #fb6087;
+  font-size: 5.5em;
+  height: 140px;
+  line-height: 138px;
+  margin-bottom: 27px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 150px;
+}
+.main-content .time-element::before, .main-content .time-element::after {
+  background: #24242e;
+  border-radius: 50%;
+  content: "";
+  height: 10px;
+  position: absolute;
+  top: calc(50% - 5px);
+  width: 10px;
+  z-index: 6;
+}
+.main-content .time-element::before {
+  left: -5px;
+}
+.main-content .time-element::after {
+  right: -5px;
+}
+.main-content .time-element > span {
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.main-content .time-element .top {
+  background-color: #2a2a41;
+  transform-origin: 50% 100%;
+  transform: perspective(200px);
+  z-index: 3;
+}
+.main-content .time-element .top::after,
+.main-content .time-element .bottom-back::after {
+  border-bottom: 1px solid #24242e;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.main-content .time-element .bottom {
+  z-index: 1;
+}
+.main-content .time-element .bottom::before {
+  background-color: #33354d;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.main-content .time-element .bottom-back {
+  background-color: #33354d;
+  height: 50%;
+  overflow: hidden;
+  top: 0;
+  z-index: 2;
+}
+.main-content .time-element .bottom-back span {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.main-content .time-element .top,
+.main-content .time-element .top-back {
+  backface-visibility: hidden;
+  height: 50%;
+  overflow: hidden;
+}
+.main-content .time-element .top-back {
+  background-color: #33354d;
+  bottom: 0;
+  transform-origin: 50% 0;
+  transform: perspective(200px) rotateX(180deg);
+  z-index: 4;
+}
+.main-content .time-element .top-back span {
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: -100%;
+}
+.main-content .attribution {
+  display: flex;
+  flex-direction: column;
+  margin-top: 250px;
+  text-align: center;
+}
+.main-content .attribution .attribution-text {
+  color: #8486a9;
+}
+.main-content .attribution .social-medias {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.main-content .attribution .social-medias .social-links {
+  margin: 10px;
+  font-size: 50px;
+}
+.main-content .attribution .social-links,
+.main-content .attribution a {
+  color: #fff;
+}
+.main-content .attribution .social-links:hover,
+.main-content .attribution a:hover {
+  color: #fb6087;
+}
+.main-content .attribution .social-links:focus,
+.main-content .attribution a:focus {
+  color: #fb6087;
+  outline: #fff dotted 3px;
+  outline-offset: 0.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content .container-countdown {
+    flex-direction: column;
+  }
+}
+
+
+</style>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("July 30, 2021 22:00:00 GMT+0530").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+
+  var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("days").textContent = days;
+                document.getElementById("days").innerText = days;
+
+                document.getElementById("hours").textContent = hours;
+                document.getElementById("minutes").textContent = minutes;
+                document.getElementById("seconds").textContent = seconds;
+
+
+            } ,1000);
+
+
+</script>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://kit.fontawesome.com/0c9ec2dc89.js" crossorigin="anonymous"></script>
+</html>
